@@ -5,6 +5,7 @@
     padding: var(--horizontal-space);
     padding-top: 40px;
     opacity: 0.92;
+    margin-bottom: 10px;
 }
 
 .screen-header__title {
@@ -16,6 +17,19 @@
     margin-left: 22px;
 }
 
-.friends-screen {
-    padding: 0px var(--horizontal-space);
+.screen-header__icons {
+    position: relative;
+}
+
+.screen-header__notification {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -5px;
+    top: -8px;
 }

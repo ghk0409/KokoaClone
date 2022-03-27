@@ -7,6 +7,8 @@
     margin: 5px 3px;
     padding: 0 5px;
     box-sizing: border-box;
+    background-color: white;
+    z-index: 20;
 }
 
 .status-bar__column {
