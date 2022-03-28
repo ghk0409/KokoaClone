@@ -40,9 +40,22 @@
     transition: color 0.5s ease-in-out;
 }
 
+@keyframes moreIconScale {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: none;
+    }
+}
+
 .more-suggestions__icon-image i:hover {
     cursor: pointer;
     color: tomato;
+    animation: moreIconScale 0.6s ease-in-out;
 }
 
 .more-suggestions__icon-text {
